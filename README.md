@@ -11,3 +11,13 @@ The Breathe To Release are a group of highly motivated yogis with the goal of br
 1. Which subway locations would be the best place to open a yoga studio?
 Where are we likely to find employees on their way to work or home?		
 2. What time should the sessions be offered with the intention of attracting employees?
+
+
+# Data
+Data is provided by New York City Metropolitan Transportation Authority of the daily entries and exits of people using all the subway stations in the city by turnstile. The date range will be from August, 2021 to November, 2021.
+I will try to add additional data such as the MTA station location using zip code or latitude and longitude to focus on different parts of the city. After the weekdays and hours have been analyzed, I would like to filter based on different parts of the city. 
+
+
+# Tools
+
+SQLite, DBbrowser and SQLAlchemy will be used to create a database and use Python packages such as Pandas, Matplotlib, Seaborn to perform exploratory data analysis with visualization. 

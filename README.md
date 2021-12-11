@@ -17,6 +17,8 @@ Where are we likely to find employees on their way to work or home?
 Data is provided by New York City Metropolitan Transportation Authority of the daily entries and exits of people using all the subway stations in the city by turnstile. The date range will be from August, 2021 to November, 2021.
 I will try to add additional data such as the MTA station location using zip code or latitude and longitude to focus on different parts of the city. After the weekdays and hours have been analyzed, I would like to filter based on different parts of the city. 
 
+http://web.mta.info/developers/turnstile.html 
+
 
 # Tools
 

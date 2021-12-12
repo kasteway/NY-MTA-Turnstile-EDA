@@ -4,7 +4,7 @@
 
 ## Description 
 
-The year 2020 was unprecedented and the challenges many faced due to COVID-19 is unfathomable. [Gallup’s latest state of the global workplace reports](https://www.gallup.com/workplace/349484/state-of-the-global-workplace.aspx) substantial increases in daily workplace stress and worry. Many of these symptoms were due to the self-isolation individuals faced when global borders closed and employers started remote-work.
+The year 2020 was unprecedented and the challenges many faced due to COVID-19 has been unfathomable. [Gallup’s latest state of the global workplace reports](https://www.gallup.com/workplace/349484/state-of-the-global-workplace.aspx) substantial increases in daily workplace stress and worry. Many of these symptoms were due to the self-isolation individuals faced when global borders closed and employers started remote-work.
 
 According to the [National Institutes of Health](https://www.nccih.nih.gov/health/providers/digest/yoga-for-health-science), scientific evidence shows that yoga supports in stress management, mental health and well-being. With many benefits of yoga scientifically proven, The Breathe To Release yogis see a great opportunity to help the lives of employees in NY by offering free yoga sessions for employees working in the city of New York. 
 

@@ -1,7 +1,8 @@
 # The Breathe And Release Yogis For Employees
 
 
-## * Description *
+
+## Description 
 
 The year 2020 was unprecedented and the challenges have been immeasurable due to COVID-19. [Gallup’s latest state of the global workplace reports](https://www.gallup.com/workplace/349484/state-of-the-global-workplace.aspx) substantial increases in daily workplace stress, worry and sadness. Many of these symptoms were due to the self-isolation individuals faced when global borders closed and employers started remote-work.
 
@@ -13,14 +14,15 @@ The Breathe To Release are a group of highly motivated yogis with the goal of br
 2. What days and time of day should the sessions be offered with the intention of attracting employees?
 
 
-##  Data 
+
+## Data 
 
 Data is provided by New York City Metropolitan Transportation Authority of the daily entries and exits of people using all the subway stations in the city by turnstile. The date range will be from August, 2021 to November, 2021.
 
 The data from New York City is available at [MTA Turnstile Data](http://web.mta.info/developers/turnstile.html) . 
 
 
-## ==Data Detail:==
+### Data Detail:
 
 | Field Name | Description                                                                     |
 |------------|---------------------------------------------------------------------------------|
@@ -37,7 +39,9 @@ The data from New York City is available at [MTA Turnstile Data](http://web.mta.
 | EXITS      | The cumulative exit register value for a device                                 |
 
 
-## ==Tools==
+
+
+## Tools
 
   - SQLite, DBbrowser and SQLAlchemy will be used to create a database 
 

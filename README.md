@@ -6,7 +6,7 @@
 
 The year 2020 was unprecedented and the challenges have been immeasurable due to COVID-19. [Gallup’s latest state of the global workplace reports](https://www.gallup.com/workplace/349484/state-of-the-global-workplace.aspx) substantial increases in daily workplace stress, worry and sadness. Many of these symptoms were due to the self-isolation individuals faced when global borders closed and employers started remote-work.
 
-According to the National Institutes of Health, scientific evidence shows that yoga supports in stress management, mental health and well-being. With many benefits of yoga scientifically proven, The Breathe To Release yogis see a great opportunity to help the lives of employees in NY by offering free yoga sessions for employees working in the city of New York to increase the quality of their lives. 
+According to the [National Institutes of Health](https://www.nccih.nih.gov/health/providers/digest/yoga-for-health-science), scientific evidence shows that yoga supports in stress management, mental health and well-being. With many benefits of yoga scientifically proven, The Breathe To Release yogis see a great opportunity to help the lives of employees in NY by offering free yoga sessions for employees working in the city of New York to increase the quality of their lives. 
 
 The Breathe To Release are a group of highly motivated yogis with the goal of bringing awareness to the benefits of yoga and helping people achieve their potential. They have requested for an exploratory data analysis to be performed using subway station data to find out:
 1. Which subway locations would be the best place to open a yoga studio?
@@ -19,7 +19,7 @@ The Breathe To Release are a group of highly motivated yogis with the goal of br
 
 Data is provided by New York City Metropolitan Transportation Authority of the daily entries and exits of people using all the subway stations in the city by turnstile. The date range will be from August, 2021 to November, 2021.
 
-The data from New York City is available at [MTA Turnstile Data](http://web.mta.info/developers/turnstile.html) . 
+The data from New York City is available at [MTA Turnstile Data](http://web.mta.info/developers/turnstile.html). 
 
 
 ### Data Detail:

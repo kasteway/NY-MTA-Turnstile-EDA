@@ -11,8 +11,8 @@ According to the [National Institutes of Health](https://www.nccih.nih.gov/healt
 The Breathe To Release are a group of highly motivated yogis with the goal of bringing awareness to the benefits of yoga and helping people achieve their potential. They have requested for an exploratory data analysis to be performed using subway station data to find out:
 1. Which subway locations would be the best place to open a yoga studio?
       - Where are we likely to find employees on their way to work or home?	    
-2. What days and time of day should the sessions be offered with the intention of attracting employees?
-
+2. What time of the day should we offer the sessions with the main goal of attracting stressed employees?
+      - Within the weekdays, which hours have the most traffic?
 
 
 ## Data 

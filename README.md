@@ -17,7 +17,25 @@ Where are we likely to find employees on their way to work or home?
 Data is provided by New York City Metropolitan Transportation Authority of the daily entries and exits of people using all the subway stations in the city by turnstile. The date range will be from August, 2021 to November, 2021.
 I will try to add additional data such as the MTA station location using zip code or latitude and longitude to focus on different parts of the city. After the weekdays and hours have been analyzed, I would like to filter based on different parts of the city. 
 
-The accessible data about the patterns of transit traffic in New York City is available http://web.mta.info/developers/turnstile.html 
+The accessible data about the patterns of transit traffic in New York City is available[MTA Turnstile Data](http://web.mta.info/developers/turnstile.html) 
+
+
+
+## Data Detail:
+
+| Field Name | Description                                                                     |
+|------------|---------------------------------------------------------------------------------|
+| C/A        | Control Area                                                                    |
+| UNIT       | Remote Unit for a station                                                       |
+| SCP        | Subunit Channel Position represents an specific address for a device            |
+| STATION    | Represents the station name the device is located at                            |
+| LINENAME   | Represents all train lines that can be boarded at this station                  |
+| DIVISION   | Represents the Line originally the station belonged to BMT, IRT, or IND         |
+| DATE       | Represents the date (MM-DD-YY)                                                  |
+| TIME       | Represents the time (hh:mm:ss) for a scheduled audit event                      |
+| DESC       | Represent the "REGULAR" scheduled audit event    |
+| ENTRIES    | The cumulative entry register value for a device                                |
+| EXITS      | The cumulative exit register value for a device                                 |
 
 
 # Tools

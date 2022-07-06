@@ -19,7 +19,7 @@ The Breathe To Release are a group of highly motivated yogis with the goal of br
 
 Data is provided by New York City Metropolitan Transportation Authority of the daily entries and exits of people using all the subway stations in the city by turnstile. The date range will be from August, 2021 to November, 2021.
 
-The data from New York City is available at [MTA Turnstile Data](http://web.mta.info/developers/turnstile.html). 
+The data from New York City is available at [MTA Turnstile Data](http://web.mta.info/developers/turnstile.html)
 
 
 ### Data Detail:

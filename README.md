@@ -15,7 +15,7 @@ The Breathe To Release are a group of highly motivated yogis with the goal of br
       - Within the weekdays, which hours have the most traffic?
 
 
-## Data 
+## Data: 
 
 Data is provided by New York City Metropolitan Transportation Authority of the daily entries and exits of people using all the subway stations in the city by turnstile. The date range will be from August, 2021 to November, 2021.
 

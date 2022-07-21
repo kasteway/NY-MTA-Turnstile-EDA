@@ -2,7 +2,7 @@
 
 
 
-## Description 
+## Description: 
 
 2020 was an unprecedented year filled with challenges. [Gallup’s latest state of the global workplace reports](https://www.gallup.com/workplace/349484/state-of-the-global-workplace.aspx) substantial increases in daily workplace stress and worry. Many of these symptoms were due to the self-isolation individuals faced when global borders closed and employers started remote-work.
 

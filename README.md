@@ -22,7 +22,7 @@ Data is provided by New York City Metropolitan Transportation Authority of the d
 The data from New York City is available at [MTA Turnstile Data](http://web.mta.info/developers/turnstile.html)
 
 
-### Data Detail:
+### Data Detail
 
 | Field Name | Description                                                                     |
 |------------|---------------------------------------------------------------------------------|

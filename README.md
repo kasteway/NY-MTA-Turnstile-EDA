@@ -41,7 +41,7 @@ The data from New York City is available at [MTA Turnstile Data](http://web.mta.
 
 
 
-## Tools
+## Tools:
 
   - SQLite3, DBbrowser and SQLAlchemy will be used to create a database
 

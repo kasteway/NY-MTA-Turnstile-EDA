@@ -45,6 +45,6 @@ The data from New York City is available at [MTA Turnstile Data](http://web.mta.
 
   - SQLite3, DBbrowser and SQLAlchemy will be used to create a database.
 
-  - Python packages such as Numpy, Pandas and other packages for EDA 
+  - Python packages such as Numpy, Pandas and other packages for EDA.
 
   - Matplotlib, Seaborn to perform visualizations.

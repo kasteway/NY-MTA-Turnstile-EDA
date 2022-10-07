@@ -47,4 +47,4 @@ The data from New York City is available at [MTA Turnstile Data](http://web.mta.
 
   - Python packages such as Numpy, Pandas and other packages for EDA.
 
-  - Matplotlib, Seaborn to perform visualizations
+  - Matplotlib, Seaborn to perform visualizations,

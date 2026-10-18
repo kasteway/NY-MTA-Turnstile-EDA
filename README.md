@@ -1,50 +1,60 @@
-# The Breathe And Release Yogis For Employees
+# NYC Subway Traffic Analysis
 
+> **Metis Data Science Bootcamp project (2021).** This repository is preserved as an early portfolio project and reflects the exploratory analysis practices used at the time.
 
+An exploratory analysis of NYC subway turnstile activity designed to identify stations and weekday time windows where a hypothetical employee-wellness organization could reach commuters with free yoga and meditation sessions.
 
-## Description: 
+## Business question
 
-2020 was an unprecedented year filled with challenges. [Gallup’s latest state of the global workplace reports](https://www.gallup.com/workplace/349484/state-of-the-global-workplace.aspx) substantial increases in daily workplace stress and worry. Many of these symptoms were due to the self-isolation individuals faced when global borders closed and employers started remote-work.
+Which subway stations and weekday time periods showed the greatest recorded turnstile traffic from August through November 2021?
 
-According to the [National Institutes of Health](https://www.nccih.nih.gov/health/providers/digest/yoga-for-health-science), scientific evidence shows that yoga supports in stress management, mental health and well-being. Science has proven some of these benefits and The Breathe To Release yogis see a great opportunity to help the lives of employees in NY by offering free yoga and meditation sessions. 
+## Verified findings
 
-The Breathe To Release are a group of highly motivated yogis with the goal of bringing awareness to the benefits of yoga and helping people achieve their potential. They have requested for an exploratory data analysis to be performed using subway station data to find out:
-1. Which subway locations would be the best place to open a yoga studio?
-      - Where are we likely to find employees on their way to work or home?	    
-2. What time of the day should we offer the sessions with the main goal of attracting stressed employees?
-      - Within the weekdays, which hours have the most traffic?
+The notebook ranks these as the five busiest station/line combinations in the analyzed period after its cleaning and aggregation steps:
 
+| Rank | Station/lines | Recorded entries + exits |
+|---|---|---:|
+| 1 | 34 ST–HERALD SQ (BDFMNQRW) | 8,410,930 |
+| 2 | GRD CNTRL–42 ST (4567S) | 8,315,535 |
+| 3 | 42 ST–PORT AUTH (ACENQRS1237W) | 6,165,122 |
+| 4 | 34 ST–PENN STA (ACE) | 5,694,110 |
+| 5 | FLUSHING–MAIN (7) | 5,458,666 |
 
-## Data: 
+These are totals produced by the original notebook, not current ridership estimates.
 
-Data is provided by New York City Metropolitan Transportation Authority of the daily entries and exits of people using all the subway stations in the city by turnstile. The date range will be from August, 2021 to November, 2021..
+## Data
 
-The data from New York City is available at [MTA Turnstile Data](http://web.mta.info/developers/turnstile.html)
+The project uses public [MTA turnstile data](http://web.mta.info/developers/turnstile.html) covering approximately August–November 2021. Turnstile counters are cumulative, so interval traffic must be calculated from differences between observations.
 
+## Approach
 
-### Data Detail:
+1. Combine weekly MTA files and standardize column names.
+2. Build turnstile and station identifiers.
+3. Remove duplicate recovery-audit records.
+4. Calculate interval changes in cumulative entries and exits.
+5. inspect negative, zero, and extreme differences caused by counter resets or irregular readings.
+6. Aggregate cleaned interval traffic by station, day, weekday/weekend, and hour.
+7. Rank candidate stations and time periods for outreach.
 
-| Field Name | Description                                                                     |
-|------------|---------------------------------------------------------------------------------|
-| C/A        | Control Area                                                                    |
-| UNIT       | Remote Unit for a station                                                       |
-| SCP        | Subunit Channel Position represents an specific address for a device            |
-| STATION    | Represents the station name the device is located at                            |
-| LINENAME   | Represents all train lines that can be boarded at this station                  |
-| DIVISION   | Represents the Line originally the station belonged to BMT, IRT, or IND         |
-| DATE       | Represents the date (MM-DD-YY)                                                  |
-| TIME       | Represents the time (hh:mm:ss) for a scheduled audit event                      |
-| DESC       | Represent the "REGULAR" scheduled audit event                                   |
-| ENTRIES    | The cumulative entry register value for a device                                |
-| EXITS      | The cumulative exit register value for a device                                 |
+## Repository guide
 
+- `EDA MTA Turnstile NY.ipynb` — detailed cleaning and exploratory work
+- `MTA EDA Summary.ipynb` — streamlined final analysis
+- `MTA slide presentation .pdf` — final presentation
+- `Project Writeup.pdf` — written project summary
+- Proposal and MVP PDFs — original project framing
 
+## Tools
 
+Python, pandas, NumPy, Matplotlib, and Seaborn.
 
-## Tools:
+## What this project demonstrates
 
-  - SQLite3, DBbrowser and SQLAlchemy will be used to create a database.
+- Converting cumulative operational counters into interval metrics
+- Investigating duplicates, resets, negative differences, and outliers
+- Aggregating high-volume records into decision-oriented rankings
+- Connecting exploratory analysis to a practical location and scheduling recommendation
 
-  - Python packages such as Numpy, Pandas and other packages for EDA.
+## Limitations
 
-  - Matplotlib, Seaborn to perform visualizations...
+The period reflects pandemic-era travel patterns and should not be treated as representative of current subway traffic. Turnstile data measures station activity, not unique commuters or employment status. The original cleaning replaces or filters irregular counter changes; alternative rules could change the totals. The analysis is a historical learning project rather than a live site-selection model.
